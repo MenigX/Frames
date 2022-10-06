@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"rel="stylesheet">
+    <title>Check in</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="name">
+        <a href="index.html" class="name__out">
+          <img src="assets/img/cross.svg" alt="cross" class="name__cross">
+        </a>
+        <h6 class="name__title">Регистрация</h6>
+      </div>
+      <div class="content">
+        <h1 class="content__title">Добро пожаловать в Eventplace</h1>
+        <form action="get">
+            <input type="text" class="content__input" placeholder="Номер телефона">
+            <input type="text" class="content__input" placeholder="Электронная почта">
+            <input type="text" class="content__input" placeholder="Пароль">
+            <p class="content__text_subtext">Мы отправим письмо, чтобы подтвердить почту.</p>
+            <div class="content__agree">
+                <input type="checkbox" class="content__agree__check" id="check1">
+                <label for="check1" class="content__agree__label">Я хочу получать e-mail и sмs-рассылку с рекомендациями<br> интересных событий, анонсами, новостями, а также<br> информационные сообщения</label>
+            </div>
+            <div class="content__agree">
+                <input type="checkbox" class="content__agree__check" id="check2">
+                <label for="check2" class="content__agree__label">Я ознакомлен и принимаю <a href="#" class="content__link">условия пользовательского<br> соглашения</a> и <a href="#" class="content__link">политики конфидециальности</a></label>
+            </div>
+            <button class="button">Зарегистрироваться</button>
+            <p class="content__text_subbuton">
+                Уже есть аккаунт?
+                <a href="second.html" class="content__link">Войти</a>
+            </p>
+            
+            <button class="content__button">
+                <img src="Assets/img/google.svg" alt="google" class="content__button__img">
+                С помощью Google
+            </button>
+            <button class="content__button">
+                <img src="Assets/img/facebook.svg" alt="google" class="content__button__img">
+                С помощью Facebook
+            </button>
+        </form>
+       
+      </div>
+    </section>
+  </body>
+</html>
