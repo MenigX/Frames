@@ -5,28 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/css/style2.css">
     <title>Phone</title>
 </head>
 
 <body>
     <section class="phone">
-        <form class="content" action="get">
+        <div class="content">
             <a href="index.html" class="content__link">
                 <img src="Assets/img/close.svg" alt="close" class="content__img">
             </a>
             <h1 class="content__title">обратный звонок</h1>
-            <input type="text" class="content__input" placeholder="Имя">
-            <input type="text" class="content__input" placeholder="Телефон">
-            <div class="container">
-                <input type="checkbox" id="check" class="container__check">
-                <label for="check">
-                    <p class="container__text">Я даю согласие на обработку<br> персональных данных в соответствии<br>
-                        с политикой конфиденциальности</p>
-                </label>
-            </div>
-            <button class="button content__button">Заказать звонок</button>
-        </form>
+            <form class="content__form">
+                <input type="text" class="content__input" placeholder="Имя">
+                <input type="text" class="content__input" placeholder="Телефон">
+                <div class="container">
+                    <input type="checkbox" id="check" class="container__check">
+                    <label for="check">
+                        <p class="container__text">Я даю согласие на обработку<br> персональных данных в
+                            соответствии<br>
+                            с политикой конфиденциальности</p>
+                    </label>
+                </div>
+                <button class="button content__button">Заказать звонок</button>
+            </form>
+        </div>
     </section>
 </body>
 

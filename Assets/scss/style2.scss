@@ -1,0 +1,132 @@
+.phone {
+    max-width: 435px;
+    margin: 0 auto;
+}
+
+.application {
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.connection {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.content {
+    &__title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #6D3496;
+        margin: 20px auto;
+    }
+
+    &__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #6D3496;
+        margin: 0 auto 20px;
+    }
+
+    &__input {
+        &_last {
+            width: 420px;
+            height: 42px;
+            border: 2px solid #6D3496;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            background-color: #FFFBF1;
+        }
+
+        width: 334px;
+        height: 42px;
+        border: 2px solid #6D3496;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        background-color: #FFFBF1;
+    }
+
+    &__link {
+        width: 20px;
+    }
+
+    &__button {
+        margin: 0 auto;
+        width: 334px;
+        height: 50px;
+    }
+
+    &__subtitle {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 25px auto;
+        color: #6D3496;
+    }
+
+    &__textarea {
+        margin: 25px 0;
+        background-color: #FFFBF1;
+        border: 2px solid #6D3496;
+        border-radius: 3px;
+    }
+
+    &__inner {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    &__check {
+        margin-bottom: 25px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #FFFBF1;
+    padding: 25px;
+}
+
+.container {
+    &__text {
+        margin: 0;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #260A3A;
+    }
+
+    max-width: 340px;
+    display: flex;
+    align-items: start;
+    margin: 25px auto;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: #6D3496;
+    border-radius: 3px;
+}
